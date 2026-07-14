@@ -102,3 +102,22 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
+.language-switcher button {
+    background-color: #F5E6C8;
+    color: #4A1F1F;
+    border: 1px solid #8B5A2B;
+    border-radius: 20px; /* скруглённые */
+    padding: 8px 18px;
+    margin: 5px;
+    font-family: "Cinzel", serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.language-switcher button:hover {
+    background-color: #D9A441;
+    color: white;
+    transform: translateY(-2px);
+}
