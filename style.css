@@ -79,3 +79,26 @@ body, html {
     flex-direction: column;
     min-height: 100vh;
 }
+header {
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+
+    /* Фоновая фотография */
+    background:
+        linear-gradient(
+            rgba(74, 31, 31, 0.45),
+            rgba(166, 106, 61, 0.45)
+        ),
+        url("foto/1.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
