@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header {
+    height: 400px; /* или любая нужная высота */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* по вертикали */
+    align-items: center;     /* по горизонтали */
+    text-align: center;
+
+    color: rgb(26, 1, 1); /* если фон темный */
+}
+h1 {
+    font-family: "Cinzel", serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+
+    background: linear-gradient(
+        to bottom,
+        #4A1F1F 0%,     /* тёмный бордовый */
+        #6B3A2A 40%,    /* коричневый */
+        #A66A3D 70%,    /* светло-коричневый */
+        #D9A441 100%    /* янтарный */
+    );
+}
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-info h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+main {
+    flex: 1;
+    background: linear-gradient(
+        to bottom,
+        #4A1F1F,
+        #6B3A2A,
+        #A66A3D,
+        #D9A441
+    );
+}
+body, html {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
