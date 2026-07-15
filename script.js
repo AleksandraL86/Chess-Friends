@@ -1,5 +1,5 @@
 async function changeLanguage(language) {
-    const response = await fetch(`lang/${language}.json`);
+    const response = await fetch(`Lang/${language}.json`);
     const translations = await response.json();
 
     document.querySelectorAll("[data-lang]").forEach(element => {
